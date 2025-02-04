@@ -15,7 +15,7 @@ C:/GitHub/Crimson-Arcana/Crimson-Arcana
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50485
+51478
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/GitHub/Crimson-Arcana/Crimson-Arcana
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19096]  Target information:
+Player connection [8012]  Target information:
 
-Player connection [19096]  * "[IP] 172.16.57.111 [Port] 0 [Flags] 2 [Guid] 3581490869 [EditorId] 3581490869 [Version] 1048832 [Id] WindowsEditor(7,EliteBook-840) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8012]  * "[IP] 172.16.57.111 [Port] 0 [Flags] 2 [Guid] 1663714424 [EditorId] 1663714424 [Version] 1048832 [Id] WindowsEditor(7,EliteBook-840) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19096] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19096] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8012] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8012] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +92,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007475 seconds.
-- Loaded All Assemblies, in  1.064 seconds
+Registered in 0.006733 seconds.
+- Loaded All Assemblies, in  0.986 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.157 seconds
-Domain Reload Profiling: 2216ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  1.104 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (515ms)
-		LoadAssemblies (267ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (506ms)
-			TypeCache.Refresh (503ms)
-				TypeCache.ScanAssembly (461ms)
+		AnalyzeDomain (444ms)
+			TypeCache.Refresh (441ms)
+				TypeCache.ScanAssembly (407ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1158ms)
+	FinalizeReload (1107ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1013ms)
+		SetupLoadedEditorAssemblies (970ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (526ms)
-			ProcessInitializeOnLoadMethodAttributes (204ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,97 +137,81 @@ Domain Reload Profiling: 2216ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.507 seconds
-Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.170 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.505 seconds
-Domain Reload Profiling: 5004ms
-	BeginReloadAssembly (590ms)
+- Finished resetting the current domain, in  2.450 seconds
+Domain Reload Profiling: 4612ms
+	BeginReloadAssembly (437ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (129ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (1638ms)
-		LoadAssemblies (1103ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (1493ms)
+		LoadAssemblies (959ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (897ms)
-			TypeCache.Refresh (639ms)
-				TypeCache.ScanAssembly (596ms)
-			BuildScriptInfoCaches (213ms)
-			ResolveRequiredComponents (37ms)
-	FinalizeReload (2507ms)
+		AnalyzeDomain (781ms)
+			TypeCache.Refresh (558ms)
+				TypeCache.ScanAssembly (518ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2451ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2088ms)
+		SetupLoadedEditorAssemblies (2058ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (418ms)
-			ProcessInitializeOnLoadAttributes (1329ms)
-			ProcessInitializeOnLoadMethodAttributes (314ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (344ms)
+			ProcessInitializeOnLoadAttributes (1351ms)
+			ProcessInitializeOnLoadMethodAttributes (339ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6531 unused Assets / (4.5 MB). Loaded Objects now: 7229.
-Memory consumption went from 169.6 MB to 165.1 MB.
-Total: 25.194800 ms (FindLiveObjects: 2.106700 ms CreateObjectMapping: 2.515800 ms MarkObjects: 13.714500 ms  DeleteObjects: 6.854400 ms)
+Unloading 6531 unused Assets / (4.9 MB). Loaded Objects now: 7229.
+Memory consumption went from 169.4 MB to 164.5 MB.
+Total: 24.598600 ms (FindLiveObjects: 1.741400 ms CreateObjectMapping: 2.491000 ms MarkObjects: 14.480400 ms  DeleteObjects: 5.883000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 347648.704172 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1526cf67c1d1aaa9a72597cdbc7bb0b0') in 0.0761645 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 384.793832 seconds.
+  Time since last request: 359228.250763 seconds.
   path: Assets/PlayerSprites/Attacks.png
   artifactKey: Guid(6ee56034b74914141ae97c26821f40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Attacks.png using Guid(6ee56034b74914141ae97c26821f40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64d9ba245c8e6855443dbbc243963f85') in 0.5009245 seconds
+Start importing Assets/PlayerSprites/Attacks.png using Guid(6ee56034b74914141ae97c26821f40e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64d9ba245c8e6855443dbbc243963f85') in 0.5800101 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PlayerSprites/Death.png
-  artifactKey: Guid(b10b169425a954b4cbf20e0564962913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Death.png using Guid(b10b169425a954b4cbf20e0564962913) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52241e5e8e9fc00d55c1ef6d515cf511') in 0.0392509 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/PlayerSprites/Roll.png
+  artifactKey: Guid(8b448f06da74de747954418f74e6a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerSprites/Roll.png using Guid(8b448f06da74de747954418f74e6a606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6409c20d539af7787964c82532c4543') in 0.0613438 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PlayerSprites/Climb.png
-  artifactKey: Guid(edba30ee9e6b7224aa3cafde8beda0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Climb.png using Guid(edba30ee9e6b7224aa3cafde8beda0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d6925b0c7472562b29d60baa525e5e') in 0.0325579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000050 seconds.
+  path: Assets/PlayerSprites/Pray.png
+  artifactKey: Guid(119201a35d564354794089f73d3e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerSprites/Pray.png using Guid(119201a35d564354794089f73d3e40fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cab34511819310c49309a93221aca7fa') in 0.1195913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PlayerSprites/crouch_attacks.png
-  artifactKey: Guid(70002d4ed2ed53344b5ea5bb2b130628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/crouch_attacks.png using Guid(70002d4ed2ed53344b5ea5bb2b130628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1f2db7dfb79786134d10c3db93b5269') in 0.0551466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
+  Time since last request: 0.000031 seconds.
   path: Assets/PlayerSprites/Health.png
   artifactKey: Guid(38843419559c5c14faca784fb1a3ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Health.png using Guid(38843419559c5c14faca784fb1a3ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd33992d9982826dbd423d7b8222ee9b') in 0.0660379 seconds
+Start importing Assets/PlayerSprites/Health.png using Guid(38843419559c5c14faca784fb1a3ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd33992d9982826dbd423d7b8222ee9b') in 0.0848829 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
@@ -235,14 +219,22 @@ Received Import Request.
   Time since last request: 0.000032 seconds.
   path: Assets/PlayerSprites/Hurt.png
   artifactKey: Guid(956aa111351538445abc013804fdd345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Hurt.png using Guid(956aa111351538445abc013804fdd345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1db2ffab00a331669fdb0d564232504d') in 0.0361967 seconds
+Start importing Assets/PlayerSprites/Hurt.png using Guid(956aa111351538445abc013804fdd345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1db2ffab00a331669fdb0d564232504d') in 0.050333 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PlayerSprites/Hanging.png
+  artifactKey: Guid(f9a736bf279143e4daf5ad7f4d29a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerSprites/Hanging.png using Guid(f9a736bf279143e4daf5ad7f4d29a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '214d263a9a3db38413810ff7a88e6994') in 0.0473351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
   path: Assets/PlayerSprites/Idle.png
   artifactKey: Guid(0c2a77490d18c3d4c942a60d6e2ddede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprites/Idle.png using Guid(0c2a77490d18c3d4c942a60d6e2ddede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc23def2d9aae0fb54a348abdfaa485') in 0.063199 seconds
+Start importing Assets/PlayerSprites/Idle.png using Guid(0c2a77490d18c3d4c942a60d6e2ddede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bc23def2d9aae0fb54a348abdfaa485') in 0.0897707 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
