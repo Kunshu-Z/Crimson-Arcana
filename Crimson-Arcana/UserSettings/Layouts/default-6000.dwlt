@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 629.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -281,7 +281,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 67688
+  m_LastSelectedObjectID: 44474
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -361,14 +361,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 8888978869606594665, guid: 511de390ac37c3242b5b4a84690db211, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.80679184
       e01: 0
       e02: 0
-      e03: 0
+      e03: 128.8053
       e10: 0
-      e11: 1
+      e11: 0.80679184
       e12: 0
-      e13: -1.6666565
+      e13: 16.135849
       e20: 0
       e21: 0
       e22: 1
@@ -440,7 +440,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations&Controllers
+    - Assets/PlayerSprites
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -450,16 +450,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations&Controllers
+  - Assets/PlayerSprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\GitHub\Crimson-Arcana\Crimson-Arcana
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 76080100
-    m_LastClickedID: 67702
-    m_ExpandedIDs: 000000003a06010000ca9a3bffffff7f
+    m_SelectedIDs: 14b00000
+    m_LastClickedID: 45076
+    m_ExpandedIDs: 0000000036ae000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,7 +488,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a060100
+    m_ExpandedIDs: 0000000036ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,10 +514,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b831ffff
-    m_LastClickedInstanceID: -52808
+    m_SelectedInstanceIDs: 6eb1000070b1000072b1000074b1000076b1000078b100007ab100007cb10000
+    m_LastClickedInstanceID: 45436
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000e45a0000ac7f0000d46700005a670000a6670000be600000a26800007e6800006e6f00008c64000084640000646100006a6400004c6700007a600000206a00002a630000b4600000166300006663000084780000b0920100327d0000267d000000000000d66400003a2d0200046000004e9d00000c6000009eb1000026a10000603c04004a8b0000f6f20000f2f20000a09b0000805d01003a75010036750100585d01000a6b0000cab9000090630100986700001e8901001a700000d063010010ec0100feeb0100804e0200e60a010098070100e2070100
+    m_ExpandedInstanceIDs: c6230000e45a0000ac7f0000d46700005a670000a6670000be600000a26800007e6800006e6f00008c64000084640000646100006a6400004c6700007a600000206a00002a630000b4600000166300006663000084780000b0920100327d0000267d000000000000d66400003a2d0200046000004e9d00000c6000009eb1000026a10000603c04004a8b0000f6f20000f2f20000a09b0000805d01003a75010036750100585d01000a6b0000cab9000090630100986700001e8901001a700000d063010010ec0100feeb0100804e0200e60a010098070100e20701006cb10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 31.333344}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -585,9 +585,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 06e0ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: b836ffff163affff
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 310.00003
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
