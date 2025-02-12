@@ -57,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isGrounded = true;
             animator.SetBool("isJumping", false);
+            Debug.Log("Player is on the ground");
         }
     }
 
@@ -65,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+            Debug.Log("Player is not on the ground");
         }
     }
 
