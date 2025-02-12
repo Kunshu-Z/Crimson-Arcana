@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         HandleMovement();
         HandleJumping();
